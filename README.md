@@ -1,0 +1,5 @@
+This project is done by PyCharm (python 3.9), SQLite, and CSV to backup database.
+The system manages all the classroom reservation transactions for different kinds of academic events taking place on KSU campus.
+It contains four classes aka four windows ( SignupW, LoginW, AdminW, and StudentW)
+GUI for a SignupW page takes user inputs for First Name, Last Name, Student ID, Password, Email, and Phone Number. Then, it validates the inputs to make sure they are in the correct format before submitting the form. If any of the inputs are invalid, an error message will be displayed. If all inputs are valid, the form will be submitted, and the information will be stored in a database.(Notice first one added to database will be Admin Automatically)
+After LoginW The system automatically open AdminW if the user is Admin or student if user is student. Student could reserve available room that admin had created (Notice two students couldn’t reserve same room at the same time). The system is user friendly and easy to use.
